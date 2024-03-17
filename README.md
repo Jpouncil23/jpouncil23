@@ -1,5 +1,5 @@
 # Hello, I'm Justin Pouncil
-<a href="[https://linkedin.com](https://www.linkedin.com/in/justinpouncil/)"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/justinpouncil/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 
 Hey there! My name is Justin Pouncil and I'm really passionate about cybersecurity. I'm super excited to break into the field and help protect digital infrastructures from evolving threats!
