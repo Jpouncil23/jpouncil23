@@ -4,9 +4,8 @@
 
 Hey there! My name is Justin Pouncil and I'm really passionate about cybersecurity. I'm super excited to break into the field and help protect digital infrastructures from evolving threats!
 ## Objective
-[Provide Objective - Remove this afterwards]]
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+My objective in cybersecurity is to leverage my expertise and skills to proactively identify and mitigate security risks, safeguarding digital assets and ensuring the integrity, confidentiality, and availability of sensitive information
 
 ## Skills
 [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
