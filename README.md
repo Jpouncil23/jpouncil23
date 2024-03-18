@@ -12,6 +12,9 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Active Directory Lab Configuration     | <a href="https://github.com/Jpouncil23/Active-Directory-Lab/tree/main">Active-Directory-Lab</a>|
+| Malware Analysis Lab    | <a href="https://github.com/Jpouncil23/Active-Directory-Lab/tree/main">Active-Directory-Lab</a>|
+
+
 
 ## Tools
 
@@ -29,3 +32,5 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 
 ## Projects
 - <a href="https://github.com/Jpouncil23/Active-Directory-Lab/tree/main">Active-Directory-Lab</a>
+
+
