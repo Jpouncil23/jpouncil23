@@ -8,7 +8,6 @@ Hey there! My name is Justin Pouncil and I'm really passionate about cybersecuri
 My objective in cybersecurity is to leverage my expertise and skills to proactively identify and mitigate security risks, safeguarding digital assets and ensuring the integrity, confidentiality, and availability of sensitive information
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
@@ -43,7 +42,6 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 </div>
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
 <div>
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
