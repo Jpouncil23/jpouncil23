@@ -32,5 +32,6 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 
 ## Projects
 - <a href="https://github.com/Jpouncil23/Active-Directory-Lab/tree/main">Active-Directory-Lab</a>
+- <a href="https://github.com/Jpouncil23/Malware-Analysis-Lab-/tree/main">Malware analysis lab</a>
 
 
