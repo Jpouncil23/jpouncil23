@@ -14,7 +14,6 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 | Active Directory Lab Configuration     | <a href="https://github.com/Jpouncil23/Active-Directory-Lab/tree/main">Active-Directory-Lab</a>|
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Network
 <div>
