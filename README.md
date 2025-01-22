@@ -1,10 +1,7 @@
 # Hello, I'm Justin Pouncil
 <a href="https://www.linkedin.com/in/justinpouncil/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<img src="https://img.shields.io/badge/-TryHackMe-FF0000?&style=for-the-badge&logo=TryHackMe&logoColor=white" />
+<a href="https://tryhackme.com/r/p/jpouncil"><img src="https://img.shields.io/badge/-TryHackMe-FF0000?&style=for-the-badge&logo=TryHackMe&logoColor=white" /></a>
 
-<a href="https://tryhackme.com/r/p/jpouncil" target="_blank">
-  <img src="https://img.shields.io/badge/-TryHackMe-FF0000?&style=for-the-badge&logo=TryHackMe&logoColor=white" />
-</a>
 
 Hey there! My name is Justin Pouncil and I'm really passionate about cybersecurity. I'm super excited to break into the field and help protect digital infrastructures from evolving threats!
 ## Objective
