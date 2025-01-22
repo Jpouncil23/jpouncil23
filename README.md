@@ -8,6 +8,12 @@ Hey there! My name is Justin Pouncil and I'm really passionate about cybersecuri
 
 My objective in cybersecurity is to leverage my expertise and skills to proactively identify and mitigate security risks, safeguarding digital assets and ensuring the integrity, confidentiality, and availability of sensitive information
 
+## 🚀What I'm Currently Working On
+
+- 🔐 **Enhancing my cybersecurity skills** with the **SOC Level 1 learning path** on [TryHackMe](https://tryhackme.com/r/p/jpouncil)
+- 📚 Preparing for **CompTIA A+ 220-1102 Certification**
+
+
 ## Skills
 
 | Skill                                         | Associated Project         |
