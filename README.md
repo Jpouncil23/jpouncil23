@@ -22,7 +22,7 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 | Windows Server Administration     | <a href="https://github.com/Jpouncil23/Active-Directory-Lab/tree/main">Active-Directory-Lab</a>|
 | Threat analysis   | <a href="https://github.com/Jpouncil23/Malware-Analysis-Lab-/tree/main">Malware anlysis lab</a>|
 | Log analysis  | <a href="https://github.com/Jpouncil23/SOC_Lab/tree/main">SOC_Lab</a>|
-| Exploitation | <a href="">Penatration report</a>|
+| Exploitation | <a href="https://github.com/Jpouncil23/Penatration-report/tree/main">Penatration report</a>|
 
 
 
