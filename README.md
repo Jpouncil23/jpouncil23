@@ -38,9 +38,7 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 
 ## Certifications
 <div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
     <a href="https://www.certmetrics.com/comptia/public/verification.aspx?code=KNXPVHVWE466VCKW"><img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" /></a>
-
 </div>
 
 ## Projects
