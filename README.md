@@ -19,9 +19,11 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Active Directory Lab Configuration     | <a href="https://github.com/Jpouncil23/Active-Directory-Lab/tree/main">Active-Directory-Lab</a>|
-| Malware Analysis Lab    | <a href="https://github.com/Jpouncil23/Malware-Analysis-Lab-/tree/main">Malware anlysis lab</a>|
-| SOC_Lab    | <a href="https://github.com/Jpouncil23/SOC_Lab/tree/main">SOC_Lab</a>|
+| Windows Server Administration     | <a href="https://github.com/Jpouncil23/Active-Directory-Lab/tree/main">Active-Directory-Lab</a>|
+| Threat analysis   | <a href="https://github.com/Jpouncil23/Malware-Analysis-Lab-/tree/main">Malware anlysis lab</a>|
+| Log analysis  | <a href="https://github.com/Jpouncil23/SOC_Lab/tree/main">SOC_Lab</a>|
+| Exploitation | <a href="">Penatration report</a>|
+
 
 
 
