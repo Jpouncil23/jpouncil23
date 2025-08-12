@@ -11,7 +11,7 @@ My objective in cybersecurity is to leverage my expertise and skills to proactiv
 ## 🚀What I'm Currently Working On
 
 - 🔐 **Enhancing my cybersecurity skills** with the **SOC Level 1 learning path** on [TryHackMe](https://tryhackme.com/r/p/jpouncil)
-- 📚 Preparing for **CompTIA A+ Certification**
+- 📚 Preparing for **Network+ Certification**
 - 🦉 Current student at **WGU(Western Governors University)**
 
 
