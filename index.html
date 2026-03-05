@@ -226,12 +226,32 @@
       border: 1px solid var(--border);
       padding: 24px;
       border-radius: 4px;
-      transition: border-color 0.2s, transform 0.2s;
+      cursor: default;
     }
 
-    .work-card:hover {
-      border-color: var(--green);
-      transform: translateY(-3px);
+    .work-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      color: var(--green);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .work-badge-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
     }
 
     .work-card-icon {
@@ -291,22 +311,49 @@
       gap: 16px;
     }
 
-    .cert-card {
+    a.cert-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-left: 3px solid var(--green);
       padding: 20px 24px;
       border-radius: 2px;
+      text-decoration: none;
+      display: block;
+      position: relative;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
     }
 
-    .cert-card h3 {
+    a.cert-card:hover {
+      border-color: var(--green);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 24px rgba(0,255,157,0.08);
+    }
+
+    a.cert-card::after {
+      content: 'Verify ↗';
+      position: absolute;
+      top: 12px;
+      right: 14px;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 10px;
+      color: var(--green);
+      letter-spacing: 1px;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    a.cert-card:hover::after {
+      opacity: 1;
+    }
+
+    a.cert-card h3 {
       font-size: 15px;
       font-weight: 700;
       color: #e8f4f4;
       margin-bottom: 4px;
     }
 
-    .cert-card p {
+    a.cert-card p {
       font-size: 12px;
       color: var(--muted);
       font-family: 'Share Tech Mono', monospace;
@@ -417,7 +464,7 @@
     <div class="hero-tag">Cybersecurity Professional</div>
     <h1>Justin<br/><span>Pouncil</span></h1>
     <p class="hero-bio">
-      Passionate about cybersecurity and driven to protect digital infrastructures from evolving threats. IT Support Specialist transitioning into security, building hands-on skills through real lab environments and continuous learning.
+      IT Support Specialist with a foundation in systems administration, networking, and endpoint security, actively transitioning into cybersecurity. I build hands-on experience through real lab environments, adversary emulation, and SIEM deployment, and I'm eager to bring that drive into an entry-level role where I can keep growing.
     </p>
     <div class="hero-links">
       <a href="https://www.linkedin.com/in/justinpouncil/" target="_blank" class="btn btn-primary">LinkedIn</a>
@@ -430,7 +477,7 @@
   <section>
     <div class="section-label">Objective</div>
     <div class="objective-box">
-      <p>My objective in cybersecurity is to leverage my expertise and skills to proactively identify and mitigate security risks, safeguarding digital assets and ensuring the integrity, confidentiality, and availability of sensitive information.</p>
+      <p>To secure an entry-level cybersecurity role where I can apply my IT background, hands-on lab experience, and growing security skill set to real-world challenges and continue developing into a well-rounded security professional over time.</p>
     </div>
   </section>
 
@@ -439,16 +486,19 @@
     <div class="section-label">Currently Working On</div>
     <div class="work-grid">
       <div class="work-card">
+        <div class="work-badge"><span class="work-badge-dot"></span>In Progress</div>
         <div class="work-card-icon">🛡️</div>
-        <h3>SOC Level 1</h3>
-        <p>Completing the SOC Level 1 learning path on TryHackMe to sharpen threat detection and incident response skills.</p>
+        <h3>NCyTE Virtual Cybersecurity Career Challenge</h3>
+        <p>Participating in a 12-week team-based challenge (Feb–Apr 2026): building a cybersecurity business plan, configuring VMs, securing a network, and presenting to industry professionals.</p>
       </div>
       <div class="work-card">
-        <div class="work-card-icon">📡</div>
-        <h3>CompTIA Network+</h3>
-        <p>Preparing for Network+ certification to strengthen foundational networking knowledge for security roles.</p>
+        <div class="work-badge"><span class="work-badge-dot"></span>In Progress</div>
+        <div class="work-card-icon">🐧</div>
+        <h3>Linux Essentials 010</h3>
+        <p>Studying for the LPI Linux Essentials 010 certification to deepen foundational Linux knowledge essential for security roles.</p>
       </div>
       <div class="work-card">
+        <div class="work-badge"><span class="work-badge-dot"></span>In Progress</div>
         <div class="work-card-icon">🎓</div>
         <h3>WGU — B.S. Cybersecurity</h3>
         <p>Pursuing a Bachelor's degree in Cybersecurity at Western Governors University (Expected Dec 2026).</p>
@@ -464,19 +514,71 @@
         <h3>Security Tools</h3>
         <div class="skill-tags">
           <span class="skill-tag">Wazuh SIEM</span>
+          <span class="skill-tag">Azure Sentinel</span>
+          <span class="skill-tag">Sysmon</span>
           <span class="skill-tag">Caldera</span>
           <span class="skill-tag">REMnux</span>
+          <span class="skill-tag">Flare VM</span>
           <span class="skill-tag">Wireshark</span>
           <span class="skill-tag">Nmap</span>
+          <span class="skill-tag">MITRE ATT&CK</span>
         </div>
       </div>
       <div class="skill-group">
         <h3>Systems</h3>
         <div class="skill-tags">
-          <span class="skill-tag">Active Directory</span>
+          <span class="skill-tag">Windows 10/11</span>
+          <span class="skill-tag">macOS</span>
+          <span class="skill-tag">Linux (Ubuntu, Debian, Kali)</span>
           <span class="skill-tag">Windows Server</span>
-          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">System Imaging</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Networking</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">TCP/IP</span>
+          <span class="skill-tag">DNS</span>
+          <span class="skill-tag">DHCP</span>
+          <span class="skill-tag">VLANs</span>
+          <span class="skill-tag">Packet Analysis</span>
+          <span class="skill-tag">Network Troubleshooting</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Cloud & Virtualization</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Azure</span>
+          <span class="skill-tag">Azure AD</span>
+          <span class="skill-tag">AWS Concepts</span>
+          <span class="skill-tag">VirtualBox</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Identity & Administration</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Active Directory</span>
+          <span class="skill-tag">Group Policy</span>
+          <span class="skill-tag">MFA</span>
           <span class="skill-tag">Office 365</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>IT Support</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Device Management</span>
+          <span class="skill-tag">Asset Management</span>
+          <span class="skill-tag">Ticketing Systems</span>
+          <span class="skill-tag">Vendor Coordination</span>
+          <span class="skill-tag">Documentation</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Programming & Automation</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Scripting</span>
+          <span class="skill-tag">Infrastructure as Code</span>
         </div>
       </div>
       <div class="skill-group">
@@ -487,15 +589,6 @@
           <span class="skill-tag">GitHub</span>
         </div>
       </div>
-      <div class="skill-group">
-        <h3>IT Support</h3>
-        <div class="skill-tags">
-          <span class="skill-tag">Device Management</span>
-          <span class="skill-tag">Imaging</span>
-          <span class="skill-tag">Asset Management</span>
-          <span class="skill-tag">Ticketing</span>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -503,18 +596,18 @@
   <section>
     <div class="section-label">Certifications</div>
     <div class="certs-grid">
-      <div class="cert-card">
+      <a href="https://cp.certmetrics.com/comptia/en/public/verify/credential/KNXPVHVWE466VCKW" target="_blank" class="cert-card">
         <h3>CompTIA Security+</h3>
         <p>Earned // Active</p>
-      </div>
-      <div class="cert-card">
+      </a>
+      <a href="https://cp.certmetrics.com/comptia/en/public/verify/credential/6TVJYHBY8EB4K482" target="_blank" class="cert-card">
         <h3>CompTIA A+</h3>
         <p>Earned // Active</p>
-      </div>
-      <div class="cert-card">
+      </a>
+      <a href="https://cp.certmetrics.com/CompTIA/en/public/verify/credential/97e27df5fe41401c92aa7c84990871a6" target="_blank" class="cert-card">
         <h3>CompTIA Network+</h3>
-        <p>In Progress</p>
-      </div>
+        <p>Earned // Active</p>
+      </a>
     </div>
   </section>
 
