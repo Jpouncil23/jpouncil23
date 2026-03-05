@@ -560,7 +560,13 @@
     <p style="color:var(--muted); margin-bottom:32px; font-size:15px;">Open to cybersecurity internships and entry-level opportunities.</p>
     <div class="hero-links">
       <a href="https://www.linkedin.com/in/justinpouncil/" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
-      <a href="/cdn-cgi/l/email-protection#452f3036312c2b052f3036312c2b352a302b262c296b262a28" class="btn btn-secondary">Email Me</a>
+      <a href="#" class="btn btn-secondary" id="email-btn">Email Me</a>
+      <script>
+        (function(){
+          var u='justin',d='justinpouncil.com';
+          document.getElementById('email-btn').href='mailto:'+u+'@'+d;
+        })();
+      </script>
     </div>
   </section>
 
