@@ -14,11 +14,11 @@ IT Support Specialist with a foundation in systems administration, networking, a
 
 To secure an entry-level cybersecurity role where I can apply my IT background, hands-on lab experience, and growing security skill set to real-world challenges and continue developing into a well-rounded security professional over time.
 
-## Currently Working On
+## 🚀 Currently Working On
 
-- **NCyTE Virtual Cybersecurity Career Challenge (VCCC)** — 12-week team program building a cybersecurity business plan, configuring VMs, and securing a network for industry professionals (Feb–Apr 2026)
-- Preparing for **Linux Essentials (LPI 010)** certification
-- Pursuing a **B.S. in Cybersecurity** at **Western Governors University** (expected Dec 2026)
+- 🏆 **NCyTE Virtual Cybersecurity Career Challenge (VCCC)** — 12-week team program building a cybersecurity business plan, configuring VMs, and securing a network for industry professionals (Feb–Apr 2026)
+- 🐧 Preparing for **Linux Essentials (LPI 010)** certification
+- 🎓 Pursuing a **B.S. in Cybersecurity** at **Western Governors University** (expected Dec 2026)
 
 ## Projects
 
